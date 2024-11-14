@@ -78,6 +78,7 @@ chemicals = [
 
 #Strealit App Layout
 st.title("Chemical Info Helper")
+st.text("This app provides information for more than 200 chemicals used in the industry.")
 chemical = st.selectbox("Select a chemical:", chemicals)
 
 if st.button("Get Information"):
