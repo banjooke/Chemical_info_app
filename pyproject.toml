@@ -8,7 +8,10 @@ package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11.4"
-langchain-community = "^0.3.7"
+streamlit = "^1.40.0"
+langchain = ">=0.2.17,<0.3.0"
+openai = "^1.54.3"
+langchain-community = "^0.2.18"
 
 
 [build-system]
